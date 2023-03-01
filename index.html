@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Para utilizar Bootstrap, puede agregar la hoja de estilos de Bootstrap a su código HTML incluyendo la siguiente línea en el encabezado de su archivo HTML.  
+    Bootstrap se cargará y estará disponible para su uso en su sitio web. Sin embargo, es recomendable que verifique la posibilidad de descargar la librería y alojarla en su servidor para evitar problemas de conexión o acceso a la misma.: -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Oportunidades Ilimitadas</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="page.php?name=Aprendizaje">Aprendizaje</a></li>
+        <li><a href="page.php?name=Emprendimiento">Emprendimiento</a></li>
+        <li><a href="page.php?name=Información general">Información general</a></li>
+        <li><a href="page.php?name=Organizaciones">Organizaciones</a></li>
+        <li><a href="page.php?name=Unlisted">Unlisted</a></li>
+      </ul>
+    </header>
+    <main>
+      <section>
+        <!-- Agregado la clase "img-fluid" a la imagen para que sea responsive y se adapte al tamaño de la pantalla. Y he agregado la clase "embed-responsive embed-responsive-16by9" al contenedor que esta alrededor del video y "embed-responsive-item" a la etiqueta video para hacerlo responsive.
+        La clase "embed-responsive-16by9" es para que la relación de aspecto del video sea de 16:9, pero se pueden usar diferentes relaciones de aspecto como "embed-responsive-4by3" u otras.
+        De esta manera, tanto la imagen como el video se adaptarán automáticamente al tamaño de la pantalla y se mostrarán correctamente en todos los dispositivos. -->
+        <div class="intro">
+          <img src="https://via.placeholder.com/1200x600" alt="Imagen de fondo" class="img-fluid">
+          <div class="embed-responsive embed-responsive-16by9">
+              <video src="/" autoplay loop muted class="embed-responsive-item"></video>
+          </div>
+      </div>
+        <div class="intro">
+          <h1>Bienvenidos a Oportunidades Ilimitadas</h1>
+          <p>En nuestro sitio encontrarás recursos y herramientas para aprender y emprender en el mundo digital.</p>
+        </div>
+        <div class="entries">
+            <ol>
+              <li>
+                <a href="#">
+                  <h2>Cómo crear una tienda en línea con éxito</h2>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <h2>5 herramientas imprescindibles para el marketing digital</h2>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <h2>Cómo crear un plan de negocios sólido y rentable</h2>
+                </a>
+              </li>
+            </ol>
+          </div>
+          <div class="categories">
+            <ul>
+              <li>
+                <a href="#">
+                  <span>E-commerce</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>Marketing digital</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>Planificación de negocios</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>Recursos humanos</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>Tecnología</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <p>Copyright 2022 Oportunidades Ilimitadas</p>
+      </footer>
+      <!-- Además, es importante que también agregue el archivo JavaScript de Bootstrap si desea utilizar componentes de JavaScript de Bootstrap, como modales, carruseles, etc. Puede hacerlo agregando la siguiente línea de código justo antes de cerrar la etiqueta </body>   
+      Después de agregar Bootstrap, puede utilizar las clases y componentes provistos por Bootstrap para crear un diseño responsive y adaptable. Recuerde también revisar el archivo de estilos que se le proporciono y ajustarlo según sus necesidades.    -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="main.js"></script>
+    </body>
+  </html>
+  
